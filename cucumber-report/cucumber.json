@@ -1,0 +1,268 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2021-04-07T17:27:17.681Z",
+        "line": 18,
+        "name": "I login to page with \"user1\"",
+        "description": "",
+        "id": "test;i-login-to-page-with-\"\u003cusername\u003e\";;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I login to web page with \"user1\" and \"123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"user1\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"123\"",
+                  "offset": 37
+                }
+              ],
+              "location": "steps.MyStepdefs.iLoginToWebPageWith(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:94)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:496)\r\n\tat org.testng.Assert.assertTrue(Assert.java:42)\r\n\tat org.testng.Assert.assertTrue(Assert.java:52)\r\n\tat steps.MyStepdefs.iShouldSeePage(MyStepdefs.java:47)\r\n\tat ✽.I should see page(file:///C:/Users/aleks/OneDrive/Desktop/Cucumber/src/test/java/test.feature:15)\r\n",
+              "duration": 3000000,
+              "status": "failed"
+            },
+            "line": 15,
+            "name": "I should see page",
+            "match": {
+              "location": "steps.MyStepdefs.iShouldSeePage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-07T17:27:17.681Z",
+        "line": 19,
+        "name": "I login to page with \"user2\"",
+        "description": "",
+        "id": "test;i-login-to-page-with-\"\u003cusername\u003e\";;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I login to web page with \"user2\" and \"234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"user2\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"234\"",
+                  "offset": 37
+                }
+              ],
+              "location": "steps.MyStepdefs.iLoginToWebPageWith(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:94)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:496)\r\n\tat org.testng.Assert.assertTrue(Assert.java:42)\r\n\tat org.testng.Assert.assertTrue(Assert.java:52)\r\n\tat steps.MyStepdefs.iShouldSeePage(MyStepdefs.java:47)\r\n\tat ✽.I should see page(file:///C:/Users/aleks/OneDrive/Desktop/Cucumber/src/test/java/test.feature:15)\r\n",
+              "duration": 3000000,
+              "status": "failed"
+            },
+            "line": 15,
+            "name": "I should see page",
+            "match": {
+              "location": "steps.MyStepdefs.iShouldSeePage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-07T17:27:17.679Z",
+        "line": 20,
+        "name": "I login to page with \"user3\"",
+        "description": "",
+        "id": "test;i-login-to-page-with-\"\u003cusername\u003e\";;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I login to web page with \"user3\" and \"345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"user3\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"345\"",
+                  "offset": 37
+                }
+              ],
+              "location": "steps.MyStepdefs.iLoginToWebPageWith(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:94)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:496)\r\n\tat org.testng.Assert.assertTrue(Assert.java:42)\r\n\tat org.testng.Assert.assertTrue(Assert.java:52)\r\n\tat steps.MyStepdefs.iShouldSeePage(MyStepdefs.java:47)\r\n\tat ✽.I should see page(file:///C:/Users/aleks/OneDrive/Desktop/Cucumber/src/test/java/test.feature:15)\r\n",
+              "duration": 3000000,
+              "status": "failed"
+            },
+            "line": 15,
+            "name": "I should see page",
+            "match": {
+              "location": "steps.MyStepdefs.iShouldSeePage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-07T17:27:17.678Z",
+        "line": 21,
+        "name": "I login to page with \"user4\"",
+        "description": "",
+        "id": "test;i-login-to-page-with-\"\u003cusername\u003e\";;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I login to web page with \"user4\" and \"456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"user4\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"456\"",
+                  "offset": 37
+                }
+              ],
+              "location": "steps.MyStepdefs.iLoginToWebPageWith(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:94)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:496)\r\n\tat org.testng.Assert.assertTrue(Assert.java:42)\r\n\tat org.testng.Assert.assertTrue(Assert.java:52)\r\n\tat steps.MyStepdefs.iShouldSeePage(MyStepdefs.java:47)\r\n\tat ✽.I should see page(file:///C:/Users/aleks/OneDrive/Desktop/Cucumber/src/test/java/test.feature:15)\r\n",
+              "duration": 3000000,
+              "status": "failed"
+            },
+            "line": 15,
+            "name": "I should see page",
+            "match": {
+              "location": "steps.MyStepdefs.iShouldSeePage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-07T17:27:17.679Z",
+        "line": 22,
+        "name": "I login to page with \"user5\"",
+        "description": "",
+        "id": "test;i-login-to-page-with-\"\u003cusername\u003e\";;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I login to web page with \"user5\" and \"567\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"user5\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"567\"",
+                  "offset": 37
+                }
+              ],
+              "location": "steps.MyStepdefs.iLoginToWebPageWith(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:94)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:496)\r\n\tat org.testng.Assert.assertTrue(Assert.java:42)\r\n\tat org.testng.Assert.assertTrue(Assert.java:52)\r\n\tat steps.MyStepdefs.iShouldSeePage(MyStepdefs.java:47)\r\n\tat ✽.I should see page(file:///C:/Users/aleks/OneDrive/Desktop/Cucumber/src/test/java/test.feature:15)\r\n",
+              "duration": 4000000,
+              "status": "failed"
+            },
+            "line": 15,
+            "name": "I should see page",
+            "match": {
+              "location": "steps.MyStepdefs.iShouldSeePage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          }
+        ]
+      }
+    ],
+    "name": "Test",
+    "description": "",
+    "id": "test",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/test.feature",
+    "tags": []
+  }
+]
